@@ -1,0 +1,8 @@
+# graudit rules for checking log4j calls
+log4j2.formatMsgNoLookups=[Tt][Rr][Uu][Ee]
+LOG4J_FORMAT_MSG_NO_LOOKUPS[[:space:]]*=.*
+[Cc]lass[[:space:]]+.*implements[[:space:]]+MessageFactory
+Logger[[:space:]]+.*=[[:space:]]*Log(Manager|gger)\.getLogger[[:space:]]*\(
+\.printf[[:space:]]*\([^,]+,[^,]+,.*\)
+\.(log|info|error|debug|fatal|warn)[[:space:]]*\(.*\+[[:space:]]*[^\'\"]+
+\.(log|info|error|debug|fatal|warn)[[:space:]]*\([^\'\"[:space:]]+
