@@ -44,7 +44,7 @@ class ThreadedTCPServer(socketserver.ThreadingMixIn, socketserver.TCPServer):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='a simple log4j <=2.14 information disclosure poc '
+    parser = argparse.ArgumentParser(description='a simple log4j2 versions <=2.15.0 information disclosure poc '
                                                  '(ref: https://twitter.com/Black2Fan/status/1470281005038817284)')
     parser.add_argument('-l', default='0.0.0.0', help='exploit server host to listen on (default: 127.0.0.1)')
     parser.add_argument('-p', default=8888, help='exploit server port to listen on (default: 8888)')
