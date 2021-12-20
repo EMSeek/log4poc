@@ -46,3 +46,4 @@ https://github.com/leonjza/log4jpwn
 https://www.blackhat.com/docs/us-16/materials/us-16-Munoz-A-Journey-From-JNDI-LDAP-Manipulation-To-RCE.pdf
 https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce
 https://github.com/kmindi/log4shell-vulnerable-app/`
+https://github.com/alexandre-lavoie/python-log4rce/
